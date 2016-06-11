@@ -8,9 +8,10 @@ import uuid
 controllers = [
         #('production', 'https://example.com'),
         #('dev_old_frontend', 'https://dev.example.com'),
-        #('dev_old_frontend', 'https://accept.example.com'),
+        ('dev_old_frontend', 'https://accept.example.com'),
         ]
 
+# maps to modules under user_stories 
 user_stories = (
         'setup',
         'basic_functionality',
@@ -25,6 +26,7 @@ post_run_scripts = (
         #'remove_data_db',
 )
 
+# If dry run is true no user storie action  will take place.
 dry_run = True
 
 temp_user = True
