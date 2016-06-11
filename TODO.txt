@@ -1,0 +1,15 @@
+Keep separation of concerns (use_cases, runner, controller)
+
+id's should be used to select items.
+don't use xpath. keep this in mind and maintance will be easy.
+
+The code now uses time.sleep() == bad.
+Should use a wait that polls the page until a certain id is visible.
+
+Replace print by logs.
+
+ERROR == selenium fails. eg click goes wrongs.
+FAILS == step assertion fails. eg confirm_welcome_email throws AssertFail.
+
+
+
